@@ -17,9 +17,7 @@
         $customerObj->updateRecord($_POST);
     }
 
-
 ?>
-
 
 <!doctype html>
 <html lang="en">

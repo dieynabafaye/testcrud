@@ -8,10 +8,7 @@
     if (isset($_POST['submit'])) {
         $customerObj->insertData($_POST);
     }
-
-
 ?>
-
 
 <!doctype html>
 <html lang="en">
