@@ -1,0 +1,16 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+api_login:
+    path: /api/login
+
+
+# les routes users
+addUser:
+  path: /api/users
+  controller: App\Controller\UserController::Adduser
+
+updateUser:
+  path: /api/users/{id}
+  controller: App\Controller\UserController::UpdateUser
